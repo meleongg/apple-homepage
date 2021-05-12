@@ -1,1 +1,1 @@
-# apple-homepage
+# This is a remake of the old Apple website. I am practicing using linear gradients.

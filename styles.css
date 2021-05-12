@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Nav */
+
+nav {
+    margin-top: 85px;
+}
+
+nav ul {
+    background-color: gold;
+    height: 30px;
+    width: 975px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(#888888, #707070 50%, #5e5e5e 50%, #777777);
+    border-radius: 3px;
+    border: 1px solid #707070;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+.hero {
+    background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    height: 538px;
+    overflow: hidden;
+}
+
+.btn {
+    flex: 1;
+    border-right: 1px solid #545454; 
+}
+
+.apple {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 0;
+}
+
+.store {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 210px;
+}
+
+.mac {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 180px;
+}
+
+.ipod {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 150px;
+}
+
+.iphone {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 120px;
+}
+
+.ipad {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 90px;
+}
+
+.itunes {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 60px;
+}
+
+.support {
+    background: url(media/globalnav_text.svg);
+    background-position: 50% 30px;
+}
+
+.search {
+    flex-basis: 50px;
+}
