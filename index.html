@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e71f8bf7e9.js" crossorigin="anonymous"></script>
     <title>Apple</title>
 </head>
 
@@ -24,25 +25,39 @@
                 <li class='btn ipad'></li>
                 <li class='btn itunes'></li>
                 <li class='btn support'></li>
-                <li class='btn search'></li>
+                <li class='btn search'>
+                    <form class='search-form'>
+                        <i class="fas fa-search"></i>
+                        <input class='search-input' type="text">
+                    </form>
+                </li>
             </ul>
         </nav>
-        <p>What will your verse be?</p>
-        <p>Everyone has something to share. See how people are using iPad in their unique ways to the world's story.</p>
-        <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/#video-your-verse">Watch the
-            "Your Verse" film and explore the stories</a>
+        <div class='cta'>
+            <p class='bigger'>What will your verse be?</p>
+            <p class='smaller'>Everyone has something to share. See how people are using iPad in their unique ways to
+                the world's story.
+            </p>
+            <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/#video-your-verse">Watch
+                the
+                "Your Verse" film and explore the stories<i class="fas fa-play-circle"></i></a>
+
+        </div>
     </section>
     <section class='pictures'>
-        <ul>
-            <li><img src="media/promo_iphone5s.jpg" alt="promo_iphone5s"></li>
-            <li><img src="media/promo_iphone5c.jpg" alt="promo_iphone5c"></li>
-            <li><img src="media/promo_30_years.jpg" alt="promo_30_years"></li>
-            <li><img src="media/promo_supplier_responsibility.jpg" alt="promo_supplier_responsibility"></li>
+        <ul class='pic-container'>
+            <li><img class='pic' src="media/promo_iphone5s.jpg" alt="promo_iphone5s"></li>
+            <li><img class='pic' src="media/promo_iphone5c.jpg" alt="promo_iphone5c"></li>
+            <li><img class='pic' src="media/promo_30_years.jpg" alt="promo_30_years"></li>
+            <li><img class='pic' src="media/promo_supplier_responsibility.jpg" alt="promo_supplier_responsibility"></li>
         </ul>
     </section>
     <footer>
-        <p>Shop the <a href=''>Apple Online Store</a> (1-800-MY-APPLE), visit an <a href=''>Apple Retail Store</a> , or
-            find a <a href=''>reseller</a>.</p>
+        <div class='shop'>
+            Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE), visit an
+            <a href="#">Apple Retail Store </a>, or find a
+            <a href="#">reseller</a>.
+        </div>
         <ul class='links'>
             <li>
                 <p>Site Map</p>
@@ -57,7 +72,7 @@
                 <p>Media Info</p>
             </li>
             <li>
-                <p>Envirnonment</p>
+                <p>Environment</p>
             </li>
             <li>
                 <p>Job Opportunities</p>
@@ -66,18 +81,20 @@
                 <p>Contact Us</p>
             </li>
             <li>
-                <p>USA flag</p>
+                <img class='usa' src="media/usa.png" alt="murica">
             </li>
         </ul>
-        <p>Copyright © 2014 Apple Inc. All rights reserved.</p>
-        <ul class='links'>
-            <li>
-                <p>Privacy Policy</p>
-            </li>
-            <li>
-                <p>Terms of Use</p>
-            </li>
-        </ul>
+        <div class='bottom-wrapper'>
+            <p class='copyright'>Copyright © 2014 Apple Inc. All rights reserved.</p>
+            <ul class='privacy'>
+                <li>
+                    <p>Privacy Policy</p>
+                </li>
+                <li>
+                    <p>Terms of Use</p>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 
